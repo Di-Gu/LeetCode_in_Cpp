@@ -18,7 +18,7 @@ int main() {
     LinkedList->next->next->next->next = new ListNode(4);
     LinkedList->next->next->next->next->next = new ListNode(5);
 
-    auto res = LC0019_RemoveNthNodeFromEndOfList::removeNthFromEnd(LinkedList, 3);
+    auto res = LC0019::removeNthFromEnd(LinkedList, 3);
 
     return 0;
 }
