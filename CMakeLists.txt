@@ -3,9 +3,10 @@ project(LeetCode_in_Cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-include_directories(util)
+include_directories(util
+        A_LinkedList)
 
-add_subdirectory(linkedlist)
+add_subdirectory(A_LinkedList)
 
 add_executable(LeetCode main.cpp)
-TARGET_LINK_LIBRARIES(linkedlist)
+TARGET_LINK_LIBRARIES(LeetCode linkedlist)
