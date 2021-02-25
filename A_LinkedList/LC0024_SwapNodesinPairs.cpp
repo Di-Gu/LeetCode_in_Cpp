@@ -2,5 +2,10 @@
     > File Name: LC0024_SwapNodesinPairs.cpp
     > Author: isgud 
     > Date: 2/20/2021.
-******************************************************/
+**********************************************************************************************************************/
 
+#include "LinkListSolutionClass.h"
+
+ListNode* LC0024::swapPairs(ListNode *head) {
+
+}
