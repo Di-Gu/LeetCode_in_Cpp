@@ -1,10 +1,12 @@
-//
-// Created by isgud on 2/20/2021.
-//
+/**********************************************************************************************************************
+    > File Name: LC0019_RemoveNthNodeFromEndOfList.cpp
+    > Author: isgud
+    > Date: 2/20/2021.
+**********************************************************************************************************************/
 
 #include "LinkListSolutionClass.h"
 
-ListNode* LC0019_RemoveNthNodeFromEndOfList::removeNthFromEnd(ListNode* head, int n) {
+ListNode* LC0019::removeNthFromEnd(ListNode* head, int n) {
     if(!head) return nullptr;
 
     auto *dummy = new ListNode(0);
