@@ -9,9 +9,14 @@
 
 #include "data_struct.h"
 
-class LC0019_RemoveNthNodeFromEndOfList {
+class LC0019{
 public:
     static ListNode* removeNthFromEnd(ListNode* head, int n);
+};
+
+class LC0024{
+public:
+    static ListNode* swapPairs(ListNode* head);
 };
 
 #endif //LEETCODE_IN_CPP_LINKLISTSOLUTIONCLASS_H
